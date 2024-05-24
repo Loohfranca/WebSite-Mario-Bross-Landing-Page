@@ -71,8 +71,8 @@ video {
 }
 
 .mascara {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     position: fixed;
     top: 0;
      background: linear-gradient(87deg, rgba(0, 0, 0, 0.039653361344537785) 0%, rgba(2, 2, 2, 0.8995973389355743) 0%, rgba(2, 2, 2, 1) 0%, rgba(5, 5, 5, 0.6110819327731092) 29%, rgba(3, 3, 3, 0.32816876750700286) 32%, rgba(5, 5, 5, 0.5214460784313726) 36%, rgba(9, 9, 9, 0.2329306722689075) 55%, rgba(8, 8, 8, 0.0760679271708683) 62%, rgba(11, 11, 11, 0.5382528011204482) 66%, rgba(3, 3, 3, 0.43461134453781514) 77%, rgba(4, 4, 4, 1) 100%, rgba(0, 0, 0, 0.2665441176470589) 100%, rgba(43, 42, 42, 1) 100%);
@@ -181,11 +181,43 @@ textarea {
     outline-color: #d8160f;
 
 }
+ @media (max-width: 1100px){
 
-/*
-final
-top: 30%;
-left: 50%;
-transform: translateX(-50%)
+p{
+    display: none;
+}
 
-*\
+.caixamae{
+    flex-direction: column;
+    padding: 10px;
+    justify-content: flex-start;
+}
+
+.caixaprincipal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.marioeluigi{
+    width: 50vh;
+    height: auto;
+}
+.header img{
+    display: none;
+   
+}
+
+.header{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header a{
+    
+    font-size: 18px;
+    
+}
+
+ }
