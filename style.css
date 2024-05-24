@@ -155,7 +155,7 @@ span {
     flex-direction: column;
     position: fixed;
     top: 30%;
-    left: -230px;
+    left: -240px;
     padding: 20px;
     border-radius: 8px;
     transition: left 1s ease-in-out;
@@ -217,6 +217,11 @@ p{
 .header a{
     
     font-size: 15px;
+    
+}
+
+.wpp{
+    height: 40px;
     
 }
 
